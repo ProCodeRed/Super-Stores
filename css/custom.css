@@ -20,7 +20,7 @@ a:hover{text-decoration: none;}
 .bg-transparent{background-color: transparent;}
 .bg-black{background-color: black;}
 .bg-reviews{background-color: #262626;}
-.bg-gray{background-color: #8b8b8b;}
+.bg-gray{background-color: #fff;}
 .bg-gray1{background-color: #3c3b3b;}
 .bg-offwhite{background-color:  #f1f1f1;}
 .bg-chkbox-gray{background-color:#ededed;}
@@ -28,6 +28,13 @@ a:hover{text-decoration: none;}
 .bg-bike-cards{background-color: #b3100b;}
 .bg-newsletter{background-color: #cc0d07;}
 .wrapper{max-width: 960px;}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #ed3e39;
+}
+.nav-pills .nav-link {
+    border-radius: 0px;
+}
 
 .text-gray1{color: #b9b9b9;}
 .text-gray2{color: #d7d7d7;}
@@ -122,9 +129,46 @@ a:hover{text-decoration: none;}
     border-color: #6c757d;
 }
 .chkdiv{
-    outline: 1px solid #ccc;
-    outline-style: groove;
+    border: 1px solid rgba(0, 0, 0, .15);
+    
 }
+/* --------------------------------------custom checkbox code starts here------------------------------------------ */
+
+.checkbox-custom {
+    position: relative;
+  }
+  
+  .checkbox-custom input[type=checkbox] {
+    display: none;
+  }
+  
+  .checkbox-custom input[type=checkbox]~b {
+    cursor: pointer;
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #ffffff;
+    border: 2px solid #e7302a;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    line-height: 1;
+    text-align: center;
+    font-size: 20px;
+    color: #e7302a;
+  }
+  
+  .checkbox-custom input[type=checkbox]:checked~b:after {
+    content: url('../images/check-arow.png');
+    position: absolute;
+    top: -5;
+    left: 0;
+    height: 20px;
+    z-index: 1;
+  }
+
+/* ------------------------------------------------custom checkbox code ends here----------------------------------- */
 
 .bike-cards .btn-outline-secondary {
     color: #fff;
