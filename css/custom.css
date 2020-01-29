@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a:hover{text-decoration: none;}
+.pt-20{padding-top: 20px;}
+.pl-15{padding-left:15px;}
+.pb-30{padding-bottom: 30px;}
+.pb-20{padding-bottom: 20px;}
+.py-20{padding: 20px 0px;}
+.py-10{padding: 10px 0px;}
+.py-30{padding: 30px 0px;}
+.mt-17{margin-top:17px;}
+.mt-30{margin-bottom: 30px;}
+.my-20{margin: 20px 0px;}
+.bg-transparent{background-color: transparent;}
+.bg-black{background-color: black;}
+.bg-reviews{background-color: #262626;}
+.bg-gray{background-color: #8b8b8b;}
+.bg-gray1{background-color: #3c3b3b;}
+.bg-offwhite{background-color:  #f1f1f1;}
+.bg-chkbox-gray{background-color:#ededed;}
+.bg-red{background-color: #e7302a;}
+.bg-bike-cards{background-color: #b3100b;}
+.bg-newsletter{background-color: #cc0d07;}
+.wrapper{max-width: 960px;}
+
+.text-gray1{color: #b9b9b9;}
+.text-gray2{color: #d7d7d7;}
+.text-gray3{color:#333333;}
+.text-gray4{color: #999999;}
+.text-gray5{color: #666666;}
+.text-gray6{color: #818181;}
+.text-ccc{color: #ccc;}
+.text-red{color: #e7302a;}
+.text-redGoodTimes{color: #c30e08;}
+.text-black{color: #000;}
+.button-bg{background-color: #353535;}
+
+
+.font-lato-F-14{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.font-lato-F-13{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+.font-lato-F-12{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+.font-lato-F-15{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.font-lato-F-16{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.font-lato-F-18{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.font-lato-F-20{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.font-lato-F-22{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+.font-lato-F-30{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.font-GoodtimesRg-f-22{
+    font-family: 'GoodTimesRg-Regular';
+    font-size: 22px;
+}
+.font-GoodtimesRg-f-24{
+    font-family: 'GoodTimesRg-Regular';
+    font-size: 24.14px;
+}
+.font-GoodtimesRg-f-20{
+    font-family: 'GoodTimesRg-Regular';
+    font-size: 20px;
+}
+.font-GoodtimesRg-f-11{
+    font-family: 'GoodTimesRg-Regular';
+    font-size: 11.21px;
+}
+
+
+
+.bg{
+    background: url('../images/background.png');
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.custom-input-group{
+    border: 2px solid #ccc;
+    padding: 1px;
+    border-radius: 5px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn-outline-secondary:focus{
+    box-shadow: none;
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #e7302a;
+    border-color: #6c757d;
+}
+.chkdiv{
+    outline: 1px solid #ccc;
+    outline-style: groove;
+}
+
+.bike-cards .btn-outline-secondary {
+    color: #fff;
+}
+
+.bike-cards .btn{
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.custom-btn.btn-secondary{
+    border: 1px solid #fff;
+}
+.custom-btn.btn-secondary:hover {
+    color: #000;
+    border-color: #000;
+    background-color: #fff;
+}
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: .3rem .3rem 0 0 ;
+}
+
+.dirt-bike-cart{
+    position: relative;
+}
+.btn-custom-1 {
+    position: absolute;
+    bottom: 10;
+    right: 10;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    opacity: .8;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.product-nav a{ padding-bottom: 0px;}
+.cards{
+    width: 208px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    box-shadow: inset 0 0 10px #000000;
+}
+.cards-btn{
+    background-color: #e7302a;
+    color: #fff;
+    border: 1px solid #bc1e18;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -13;
+    text-shadow: 1px 0px 0px  rgba(255, 255, 255, 0.5);
+}
+
+.brands-logo {
+    border: 1px dashed;
+    border-color: #c4c4c4;
+}
+.col-1{padding: 0px;}
+
+input#name, input#email, textarea#questions{
+    border:1px solid rgba(212, 212, 212, 1);
+    background-image: linear-gradient(#fff, #f0f0f0);
+    border-radius: 3px;
+}
+
+.cards-btn-answer{
+    background-color: #e7302a;
+    color: #fff;
+    border: 1px solid #bc1e18;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-shadow: 1px 0px 0px  rgba(255, 255, 255, 0.5);
+}
+
+.review-pen {
+    vertical-align: text-bottom;
+    padding-right: 3px;
+}
+
+
+input.w-100.subs-input {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #dedede;
+    outline: none;
+    padding: 5px 15px;
+}
+button.subs-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    border: 1px solid #101010;
+    outline: none;
+    margin-top: 3px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    background-image: linear-gradient(#414141, #242424);
+}
+
+.email-logo {
+    position: relative;
+    z-index: 1;
+    top: 65px;
+}
+.col.bg-newsletter.border.border-white {
+    border-radius: 30px 0px 0px 30px;
+}
